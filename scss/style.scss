@@ -1,0 +1,78 @@
+$dark: #414148;
+$green: #73e298;
+$white: #fff;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "termina-light";
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "proxima-nova";
+	font-weight: 400;
+}
+
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.wrapper {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.banner {
+	padding: 5em 0;
+	.logo {
+		float: left;
+	}
+	h1 {
+		color: $dark;
+		display: inline;
+		float: right;
+		font-size: 3em;
+		margin: 0;
+		text-align: right;
+	}
+	h4 {
+		color: $green;
+		float: right;
+		font-size: 2em;
+		margin: 0;
+		position: relative;
+		top: 60px;
+		left: 257px;
+		text-align: right;
+	}
+}
+
+.logo {
+	background: $green;
+	border-radius: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 60px;
+}
+
+hr {
+	height: 5px;
+	border: 0;
+	border-top: 1px solid $dark;
+	margin: 1em 0;
+	padding: 0;
+	position: static;
+	top: 60px;
+	right: 65px;
+	width: 49%;
+}
