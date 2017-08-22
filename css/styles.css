@@ -8,20 +8,24 @@ html * {
     box-sizing: border-box;
     font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
 }
+
 header {
     padding: 32px;
 }
+
 img {
     width: 100%;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
+
 body {
     margin-left: auto;
     margin-right: auto;
     background: #fff;
 }
+
 .style-logo {
     margin-left: auto;
     margin-right: auto;
@@ -30,9 +34,11 @@ body {
     width: 100px;
     height: 150px;
 }
+
 .hero {
     background-size: cover;
 }
+
 h1 {
     color: #333;
     font-size: 57px;
@@ -42,9 +48,11 @@ h1 {
     position: relative;
     top: 50px;
 }
+
 span {
     color: #73e298;
 }
+
 h2 {
     font-size: 30px;
     text-transform: uppercase;
@@ -52,26 +60,38 @@ h2 {
     margin-bottom: 23px;
     text-align: center;
 }
+
 p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 35px;
     text-align: center;
 }
+
 a {
     text-align: center;
 }
-.col {
-    width: 100%;
+
+.col-md-12 {
+    padding-top: 40px;
 }
+
+.col-md-4 {
+    display: inline-block;
+    margin: 0 auto;
+    width: 33%;
+}
+
 .row:before,
 .row:after {
     content: "";
     display: table;
 }
+
 .row:after {
     clear: both;
 }
+
 /* Phone View */
 
 @media (max-width: 765px) {
@@ -96,6 +116,7 @@ a {
         float: left;
     }
 }
+
 /*Tablet View*/
 
 @media (min-width: 768px) {
@@ -117,6 +138,7 @@ a {
         padding: 0px 7px 14px;
     }
 }
+
 /*Desktop View*/
 
 @media (min-width: 1024px) {

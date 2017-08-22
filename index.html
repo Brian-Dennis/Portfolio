@@ -10,30 +10,33 @@
 
 <body>
 
-    <header class="banner cf">
+<div class="container">
+    <!--Row for logo and name-->
+    <header>
         <div class="row">
-            <div class="col">
+            <div class="col-md-6">
                 <img class="style-logo" src="images/logo.gif" alt="Logo">
+            </div>
+            <div class="col-md-6">
                 <h1><span>Brian Dennis</span></h1>
             </div>
         </div>
     </header>
-
-    <main>
+    <!--Row for banner-->
         <div class="row">
-            <div class="col">
-                <div class="hero">
-                    <img src="images/hero.png" alt="Hero Image">
-                </div>
+            <div class="col-md-12">
+                <img src="images/hero.png" alt="Hero Image">
             </div>
         </div>
 
-        <div class="row">
-            <h3>Featured Work</h3>
-        </div>
+    <div class="row">
+        <h3>Featured Work</h3>
+    </div>
 
+     <!--Row for featured work-->
+     <section class="main">
         <div class="row">
-            <div class="col col-md-one-half col-lg-one-fourth">
+              <div class="col-md-4">
                 <figure>
                     <img src="images/design.jpg" alt="Web Design">
                     <figcaption>
@@ -41,19 +44,19 @@
                         <p>Web Design is important in today's World!</p>
                     </figcaption>
                 </figure>
-            </div>
-            <div class="col col-md-one-half col-lg-one-fourth">
-                <figure>
-                    <img src="images/movie.png" alt="MovieApp">
-                    <figcaption>
-                        <h2>MovieApp</h2>
-                        <a href="https://github.com/Brian-Dennis/MovieApp">
-                            <p>https://github.com/Brian-Dennis/MovieApp</p>
-                        </a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col col-md-one-half col-lg-one-fourth">
+              </div>
+              <div class="col-md-4">
+                    <figure>
+                        <img src="images/movie.png" alt="MovieApp">
+                        <figcaption>
+                            <h2>MovieApp</h2>
+                            <a href="https://github.com/Brian-Dennis/MovieApp">
+                                <p>https://github.com/Brian-Dennis/MovieApp</p>
+                            </a>
+                        </figcaption>
+                    </figure>
+              </div>
+              <div class="col-md-4">
                 <figure>
                     <img src="images/portfolio.jpg" alt="Portfolio">
                     <figcaption>
@@ -63,18 +66,10 @@
                         </a>
                     </figcaption>
                 </figure>
-            </div>
-            <div class="col col-md-one-half col-lg-one-fourth">
-                <figure>
-                    <img src="images/html5.png" alt="html5">
-                    <figcaption>
-                        <h2>HTML5 Importance</h2>
-                        <p>HTML5 in today's Development world!</p>
-                    </figcaption>
-                </figure>
-            </div>
+              </div>
         </div>
-    </main>
+    </section>
+</div>
 </body>
 
 </html>
