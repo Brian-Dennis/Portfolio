@@ -1,90 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
-    <title>Brian's Portfolio</title>
-    <!-- meta tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- scripts -->
-    <script src="https://use.typekit.net/sep3cmi.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-    <body>
 
-        <header class="banner cf">
-            <div class="wrapper">
-                <p class="logo">BD</p>
-                <h1>Brian Dennis</h1>
-                <h4>Full-Stack Developer</h4>
-                <hr>
+<body>
+
+    <header class="banner cf">
+        <div class="row">
+            <div class="col">
+                <img class="style-logo" src="images/logo.gif" alt="Logo">
+                <h1><span>Brian Dennis</span></h1>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <section class="hero">
-            <!-- Hero section big image of code or some developer stuff -->
-            <div class="wrapper">
-
-                <div class="row">
-                    <div class="card card_full card_1">
-                        <div class="card_inner green">
-                            <p>Design Resources</p>
-                            <h2>Methodical approach to UI implementation!</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row p_title">
-                    <h1>Featured Work</h1>
-                </div>
-
-                <div class="row">
-                    <div class="card card_half left card_2">
-                        <div class="card_inner blue">
-                            <p>Design for Developers</p>
-                            <h2>Devs Learn Design</h2>
-                        </div>
-                    </div>
-
-                    <div class="card card_half right card_3">
-                        <div class="card_inner orange">
-                            <p>Python MovieApp</p>
-                            <h2>App that plays Movie trailers!</h2>
-                            <a class="git_movie" href="https://github.com/Brian-Dennis/MovieApp">MovieApp</a>
-                        </div>
-                    </div>
+    <main>
+        <div class="row">
+            <div class="col">
+                <div class="hero">
+                    <img src="images/hero.png" alt="Hero Image">
                 </div>
             </div>
-        </section>
-        <footer>
-            <!-- TODO: Footer -->
-            <div class="wrapper">
-                <h1 class="green">Portfolio</h1>
-                <p>Created by: <span>Brian Dennis</span> - &copy; 2017</p>
-                <p>All Rights Reserved.</p>
-                <div class="s_links">
-                    <p>Follow me on:</p>
-                    <a href="https://github.com/Brian-Dennis">
-                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
-                    </a>
-                </div>
+        </div>
+
+        <div class="row">
+            <h3>Featured Work</h3>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-one-half col-lg-one-fourth">
+                <figure>
+                    <img src="images/design.jpg" alt="Web Design">
+                    <figcaption>
+                        <h2>Web Design</h2>
+                        <p>Web Design is important in today's World!</p>
+                    </figcaption>
+                </figure>
             </div>
-        </footer>
-    </body>
+            <div class="col col-md-one-half col-lg-one-fourth">
+                <figure>
+                    <img src="images/movie.png" alt="MovieApp">
+                    <figcaption>
+                        <h2>MovieApp</h2>
+                        <a href="https://github.com/Brian-Dennis/MovieApp">
+                            <p>https://github.com/Brian-Dennis/MovieApp</p>
+                        </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col col-md-one-half col-lg-one-fourth">
+                <figure>
+                    <img src="images/portfolio.jpg" alt="Portfolio">
+                    <figcaption>
+                        <h2>Portfolio</h2>
+                        <a href="https://github.com/Brian-Dennis/Portfolio">
+                            <p>https://github.com/Brian-Dennis/Portfolio</p>
+                        </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col col-md-one-half col-lg-one-fourth">
+                <figure>
+                    <img src="images/html5.png" alt="html5">
+                    <figcaption>
+                        <h2>HTML5 Importance</h2>
+                        <p>HTML5 in today's Development world!</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+</body>
+
 </html>
